@@ -9,7 +9,7 @@ ClozeCard.prototype.showPartial = function() {
 }
 
 ClozeCard.prototype.showCloze = function() {
-    console.log("Answer: " + this.partial);
+    console.log("Answer: " + this.cloze);
 }
 
 module.exports = ClozeCard;
